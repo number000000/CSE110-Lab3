@@ -40,10 +40,79 @@
         <section>
           <h2><li>Agenda of the meeting</li></h2>
           <h3>Catch up from the last meeting</h3>
+          <ul>
+            <p><li>We need to have some people maintaining the dictionary so it will be <em>up to date</em> any time when people need it.<br>
+            <i>DDL for this is set to the last day of March.</i></li>
+            <li><strong>A side note: DO NOT LEAVE THE DOOR OF THE MEETING ROOM OPEN DUE TO SECURITY REASONS.</strong></li>
+            </p>
+          </ul>
           <h3>Things covered in this meeting</h3>
+          <img src="/imgs/randomthings.jpg" alt="(Whiteboard)Meeting Contents" width="500" height="1000"/>
           <h3>Unfinished questions</h3>
+          <ul>
+          <li>What was the last big mistake you made?</li>
+          <li>What's the strangest situation you ever found yourself in?</li>
+          <li>What's your favorite ritual?</li>
+          <li>If you had an extra hour a day that had to be allocated to one specific purpose, how would you use it?</li>
+          <li>Do you, or did you in the past, have any strange habits?</li>
+          </ul>
+        </section>
+        <section>
+          <h2><li>Attachments</li></h2>
+          <details>
+            <summary>Video of the meeting</summary>
+            <video controls width="250">
+              <source src="/media/fakeVideo.mp4" type="video/mp4">
+              <a href="/media/fakeVideo.mp4">Download video</a>
+            </video>
+          </details>
+          <details>
+            <summary>Audio of the meeting</summary>
+            <audio controls src="/media/fakeAudio.mp3">
+            <a href="/media/fakeAudio.mp3">Download audio</a>
+            </audio>
+          </details>
         </section>
       </ol>
+
+      <form>
+        <fieldset name = "suggestions">
+          <legend>Want your voice be heard?</legend>
+          <label for="date">Date: </label> <input type="date" id="date" name="date-submitted" min="2000-01-01" max="2030-12-31"> <br>
+          <label for="name">Name: </label> <input type="text" id="name" name="name" size="20"> <br>
+          <label for="employee?">Employee?</label> <input type="checkbox" id="employee?" name="employee?"> <br>
+          
+          <label for="source">How did you get to this site: </label>
+          <input list="source" id="sources" name="sources">
+          <datalist id="source">
+            <option value="Google Search">
+            <option value="Friends">
+            <option value="Family Members">
+            <option value="Colleagues">
+            <option value="Forums">
+            <option value="Social Medias">
+          </datalist>
+        
+          <fieldset>
+            <legend>Type of submission</legend>
+            <div><input type="radio" id="corrections" name="type" value="corrections" checked><label for="corrections">Corrections</label></div>
+            <div><input type="radio" id="new-topics" name="type" value="new-topics"><label for="new-topics">New Topics</label></div>
+            <div><input type="radio" id="others" name="type" value="others"><label for="others">Others</label></div>
+          </fieldset>
+
+          <div><label for="story">Comments: </label>
+          <textarea id="comments" name="comments" rows="5" cols="100"> I hope this Meeting Minutes can be ...</textarea> </div>
+
+          <label for="verification">I am not a robot</label>
+          <select name="huamn-verification" id="verification">
+            <option value="">--Please choose an option--</option>
+            <option value="I am a robot">I am a robot.</option>
+            <option value="I am not a robot">I am not a robot.</option>
+          </select> <br>
+
+          <button name="submit" type="reset" value="submit"> Submit </button>
+        </fieldset>
+      </form>
     </main>
     <footer>
       <h6>This Meeting Minutes is manually recorded after the meeting.</h6>
