@@ -2,78 +2,77 @@
 <html lang="en">
   <head>
     <title>Meeting Minutes</title>
-    <meta charset="utf-8" />
-    <link rel="icon" href="imgs/favicon.PNG" />
+    <meta charset="utf-8"/>
+    <link rel="icon" href="imgs/favicon.PNG"/>
   </head>
 
-  <nav>
-    <a href="index.html">Home</a> | 
-    <a href="attendees.html">Attendees' Information</a>
-  </nav>
-
-  <hr/>
-
   <body>
+    <nav>
+      <a href="index.html">Home</a> | 
+      <a href="attendees.html">Attendees' Information</a>
+    </nav>
+
+    <hr>
+
     <header>
       <div><h6>This is a Meeting Minutes</h6></div>
     </header>
     <main>
       <h1>Topic Brainstorm - Feb 31, 2022</h1>
-      <ol>
-        </section>
-          <h2><li>Meeting Details</li></h2>
-          <p><b>Meeting topic </b>Brainstorming a topic for the project.</p>
-          <p><b>Date </b>Feb 31, 2022</p>
-          <p><b>Time </b>23:59</p>
-          <p><b>Location </b>1234 Dictionary Tower, Characters State, 12345</p>
-        </section>
-        <section>
-          <h2><li>Attendees</li></h2>
-          <ul>
-            <span class="attendees">
-            <li><b>Chairperson </b>The King of English Characters</p></li>
-            <li><b>Secretary </b>Character Lady</p></li>
-            <li><b>Employees </b>a, b, c, d, e, f, g ,h ,i, j ,k ,l ,m ,n ,o, p, q, r, s, t, u, v, w, x, y, z</li>
-            </span>
-          </ul>
-        </section>
-        <section>
-          <h2><li>Agenda of the meeting</li></h2>
-          <h3>Catched up from the last meeting</h3>
-          <ul>
-            <p><li>We need to have some people maintaining the dictionary so it will be <em>up to date</em> any time when people need it.<br>
-            <i>DDL for this is set to the last day of March.</i></li>
-            <li><strong>A side note: DO NOT LEAVE THE DOOR OF THE MEETING ROOM OPEN DUE TO SECURITY REASONS.</strong></li>
-            </p>
-          </ul>
-          <h3>Things covered in this meeting</h3>
-          <img src="imgs/randomthings.jpg" alt="(Whiteboard)Meeting Contents" width="500" height="1000"/>
-          <h3>Unfinished questions</h3>
-          <ul>
+      <section>
+        <h2>1. Meeting Details</h2>
+        <p><b>Meeting topic </b>Brainstorming a topic for the project.</p>
+        <p><b>Date </b>Feb 31, 2022</p>
+        <p><b>Time </b>23:59</p>
+        <p><b>Location </b>1234 Dictionary Tower, Characters State, 12345</p>
+      </section>
+      <section>
+        <h2>2. Attendees</h2>
+        <ul>
+          <span class="attendees">
+          <li><b>Chairperson </b>The King of English Characters</p></li>
+          <li><b>Secretary </b>Character Lady</p></li>
+          <li><b>Employees </b>a, b, c, d, e, f, g ,h ,i, j ,k ,l ,m ,n ,o, p, q, r, s, t, u, v, w, x, y, z</li>
+          </span>
+        </ul>
+      </section>
+      <section>
+        <h2>3. Agenda of the meeting</h2>
+        <h3>Catched up from the last meeting</h3>
+        <ul>
+          <p>
+          <li>We need to have some people maintaining the dictionary so it will be <em>up to date</em> any time when people need it.<br>
+          <i>DDL for this is set to the last day of March.</i></li>
+          <li><strong>A side note: DO NOT LEAVE THE DOOR OF THE MEETING ROOM OPEN DUE TO SECURITY REASONS.</strong></li>
+          </p>
+        </ul>
+        <h3>Things covered in this meeting</h3>
+        <img src="imgs/randomthings.jpg" alt="(Whiteboard)Meeting Contents" width="500" height="1000">
+        <h3>Unfinished questions</h3>
+        <ol>
           <li>What was the last big mistake you made?</li>
           <li>What's the strangest situation you ever found yourself in?</li>
           <li>What's your favorite ritual?</li>
           <li>If you had an extra hour a day that had to be allocated to one specific purpose, how would you use it?</li>
           <li>Do you, or did you in the past, have any strange habits?</li>
-          </ul>
-        </section>
-        <section>
-          <h2><li>Attachments</li></h2>
-          <details>
-            <summary>Video of the meeting</summary>
-            <video controls width="250">
-              <source src="media/fakeVideo.mp4" type="video/mp4">
-              <a href="fakeVideo.mp4">Download video</a>
-            </video>
-          </details>
-          <details>
-            <summary>Audio of the meeting</summary>
-            <audio controls src="media/fakeAudio.mp3">
-            <a href="media/fakeAudio.mp3">Download audio</a>
-            </audio>
-          </details>
-        </section>
-      </ol>
+        </ol>
+      </section>
+      <section>
+        <h2>4. Attachments</h2>
+        <details>
+          <summary>Video of the meeting</summary>
+          <video controls width="250">
+            <source src="media/fakeVideo.mp4" type="video/mp4">
+            <a href="fakeVideo.mp4">Download video</a>
+          </video>
+        </details>
+        <details>
+          <summary>Audio of the meeting</summary>
+          <audio controls src="media/fakeAudio.mp3">
+          <a href="media/fakeAudio.mp3">Download audio</a>
+          </audio>
+        </details>
+      </section>
 
       <form>
         <fieldset name = "suggestions">
@@ -82,7 +81,7 @@
           <label for="name">Name: </label> <input type="text" id="name" name="name" size="20"> <br>
           <label for="employee?">Employee?</label> <input type="checkbox" id="employee?" name="employee?"> <br>
           
-          <label for="source">How did you get to this site: </label>
+          <label for="sources">How did you get to this site: </label>
           <input list="source" id="sources" name="sources">
           <datalist id="source">
             <option value="Google Search">
@@ -100,7 +99,7 @@
             <div><input type="radio" id="others" name="type" value="others"><label for="others">Others</label></div>
           </fieldset>
 
-          <div><label for="story">Comments: </label> <br>
+          <div><label for="comments">Comments: </label> <br>
           <textarea id="comments" name="comments" rows="5" cols="100"> I hope this Meeting Minutes can be ...</textarea> </div>
 
           <label for="verification">I am not a robot</label>
