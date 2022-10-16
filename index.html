@@ -4,6 +4,16 @@
     <title>Meeting Minutes</title>
     <meta charset="utf-8">
     <link rel="icon" href="imgs/favicon.PNG">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      p, ul, ol{
+        font-family: 'Caveat', cursive;
+      }
+    </style>
   </head>
 
   <body>
@@ -19,28 +29,56 @@
     </header>
     <main>
       <h1>Topic Brainstorm - Feb 31, 2022</h1>
+      <div class="grid">
+        <div class="weather">
+          Weather Sunny
+        </div>
+        <div class="temperature">
+          Temperature 70
+        </div>
+        <div class="date">
+          Date Feb 31, 2022
+        </div>
+        <div class="notes">
+          Notes none
+        </div>
+      </div>
       <section>
-        <h2>1. Meeting Details</h2>
+        <h2 class="section-headers">1. Meeting Details</h2>
         <p><b>Meeting topic </b>Brainstorming a topic for the project.</p>
         <p><b>Date </b>Feb 31, 2022</p>
         <p><b>Time </b>23:59</p>
         <p><b>Location </b>1234 Dictionary Tower, Characters State, 12345</p>
       </section>
       <section>
-        <h2>2. Attendees</h2>
+        <h2 class="section-headers">2. Attendees</h2>
           <p><b>Chairperson </b>The King of English Characters</p>
           <p><b>Secretary </b>Character Lady</p>
           <p><b>Employees </b>a, b, c, d, e, f, g ,h ,i, j ,k ,l ,m ,n ,o, p, q, r, s, t, u, v, w, x, y, z</p>
       </section>
       <section>
-        <h2>3. Agenda of the meeting</h2>
+        <h2 class="section-headers">3. Agenda of the meeting</h2>
         <h3>Catched up from the last meeting</h3>
         <ul>
           <li>We need to have some people maintaining the dictionary so it will be <em>up to date</em> any time when people need it.<br>
-          <i>DDL for this is set to the last day of March.</i></li>
+          <i style="color:red;">DDL for this is set to the last day of March.</i></li>
           <li><strong>A side note: DO NOT LEAVE THE DOOR OF THE MEETING ROOM OPEN DUE TO SECURITY REASONS.</strong></li>
         </ul>
         <h3>Things covered in this meeting</h3>
+        <div class="ideas">
+          <div class="box-1">
+            <h4>Idea</h4>
+            <p>Creating new words to revitalize the economic regression.</p>
+          </div>
+          <div class="box-2">
+            <h4>Number of approval</h4>
+            <p>3</p>
+          </div>
+          <div class="box-3">
+            <h4>Comments</h4>
+            <p>It may be hard to implement->time/money investment</p>
+          </div>
+        </div>
         <img src="imgs/randomthings.jpg" alt="(Whiteboard)Meeting Contents" width="500" height="1000">
         <h3>Unfinished questions</h3>
         <ol>
@@ -52,7 +90,7 @@
         </ol>
       </section>
       <section>
-        <h2>4. Attachments</h2>
+        <h2 class="section-headers">4. Attachments</h2>
         <details>
           <summary>Video of the meeting</summary>
           <video controls width="250">
@@ -108,7 +146,7 @@
       </form>
     </main>
     <footer>
-      <h6>This Meeting Minutes is manually recorded after the meeting.</h6>
+      <div><h6>This Meeting Minutes is manually recorded after the meeting.</h6></div>
     </footer>
   </body>
 
